@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Tektur&family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    font-family: "Tektur";
+    font-size: 15px;
+    color: white;
+}
+
+form {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.container input, select {
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.container.mail {
+    width: 50px;
+}
+
+#button {
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}

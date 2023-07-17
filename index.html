@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Knopki</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <label for="button">Button</label>
+            <input type="button" id="button">
+        </div>
+
+        <div class="container image">
+            <label for="image">Img</label>
+            <input type="image" id="image" src="#">
+        </div>
+
+        <div class="container email">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Введите адрес электронной почты">
+        </div>
+
+        <div class="container file">
+            <label for="file">File</label>
+            <input type="file" id="file">
+        </div>
+
+        <div class="container url">
+            <label for="url">URL</label>
+            <input type="url" id="url">
+        </div>
+
+        <div class="container password">
+            <label for="password">Пароль</label>
+            <input type="password" id="password">
+        </div>
+
+        <div class="container number">
+            <label for="number">Число</label>
+            <input type="number" id="number" min="0">
+        </div>
+
+        <div class="container range">
+            <label for="range">Область</label>
+            <input type="range" id="range" min="0" max="150" step="1">
+        </div>
+
+        <div class="container date">
+            <label for="date">Дата</label>
+            <input type="date" id="date">
+        </div>
+
+        <div class="container color">
+            <label for="color">Цвет</label>
+            <input type="color" id="color">
+        </div>
+
+        <div class="container gender">
+            <label for="gender">Ваш пол</label>
+            <select id="gender">
+                <option value="" selected>Мужской</option>
+                <!-- По умолчанию - selected -->
+                <option value="">Женский</option>
+            </select>
+        </div>
+
+        <div class="container radio">
+            <label>Количество работ: </label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 3
+            <input type="radio" name="work"> 4
+            <input type="radio" name="work"> 5
+        </div>
+
+        <div class="container checkbox">
+            <label>Любимая еда: </label>
+            <input type="checkbox" name="food"> Овощи
+            <input type="checkbox" name="food"> Фрукты
+            <input type="checkbox" name="food"> Морепродукты
+            <input type="checkbox" name="food"> Молочка
+            <input type="checkbox" name="food"> Мясо
+        </div>
+
+        <div class="container reset">
+            <button type="reset" class="button"> Сбросить </button>
+        </div>
+
+        <div class="container submit">
+            <button type="submit" class="button"> Отправить </button>
+        </div>
+    </form>
+</body>
+</html>
